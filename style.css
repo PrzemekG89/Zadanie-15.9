@@ -1,0 +1,52 @@
+body {
+    background-color: #F06292;
+}
+
+#root {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+form {
+    padding: 10px;
+    font-size: 20px;
+}
+
+form>label {
+    color: #efff15;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+form>input {
+    border: none;
+    width: 200px;
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 5px;
+}
+
+.list {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.user {
+    padding: 10px;
+}
+
+.user>img {
+    display: block;
+    margin: 5px auto;
+}
+
+.user>a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #eeeeee;
+}
